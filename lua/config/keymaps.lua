@@ -4,7 +4,3 @@
 local map = vim.keymap.set
 map("n", "<S-h>", "^", {})
 map("n", "<S-l>", "$", {})
-
--- buffers
-map("n", "<C-A-H>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
-map("n", "<C-A-L>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
